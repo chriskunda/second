@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.background{
+      position: fixed;
+      width: 600px;
+      height: 400px;
+
+    }
+
+.background>img {
+      position: absolute;
+      
+    }
+
+.img1 {
+       height: 100%;
+    }
+.words{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.hirya{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rimwe, .kabiri, .gatatu {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 50px;
+    
+}
+.rimwe>img{
+    margin-left: 10px;
+}
+.rimwe>p{
+    margin-left: 10px;
+}
+.kabiri>img{
+    margin-left: 10px;
+}
+.kabiri>p{
+    margin-left: 10px;
+}
+.gatatu>img{
+    margin-left: 10px;
+}
+.gatatu>p{
+    margin-left: 10px;
+}
