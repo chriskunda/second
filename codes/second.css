@@ -4,16 +4,18 @@
 }
 body{
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .background{
       position: fixed;
       width: 600px;
-      height: 400px;
-
+          height: 400px;
     }
+
 
 .background>img {
       position: absolute;
@@ -23,53 +25,114 @@ body{
 .img1 {
        height: 100%;
     }
+.container{
+    background-color: pink;
+    width: 1280px; ;
+    height: 640px;
+
+}
 .words{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+.hino{
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+    margin-top: 100px;
+}
+.hino>p{
+    margin-top: 20px;
 }
 .hirya{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    font-size: small;
+    margin-top: 120px;
+    width: 500px;
 }
-.rimwe, .kabiri, .gatatu {
+.rimwe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 10px;
+    padding: 10px;
+    width: 350px;  
+}
+.kabiri{
     display: flex;
     flex-direction: row;
     background-color: hsl(210, 46%, 95%);
     border-radius: 10px;
     padding: 10px;
     margin-left: 50px;
-    
+    width: 350px;
+}
+.gatatu{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 100px;
+    width: 350px;
 }
 .rimwe>img{
     margin-left: 10px;
 }
 .rimwe>p{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .kabiri>img{
     margin-left: 10px;
 }
 .kabiri>p{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .gatatu>img{
     margin-left: 10px;
 }
 .gatatu>p{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .cards{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 20px;
+    justify-content: space-between;
+    margin-top: 70px;
+    height: auto;
+    width: 84%;
+    color: whitesmoke;
+    font-size: small;
+    margin-left: 80px;
 }
 
-.cards>.card{
-    background-color: hsl(0, 0%, 100%);
+.card1{
+    background-color: rgb(72, 1, 72);
+    height: fit-content;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card2{
+    background-color: rgb(72, 1, 72);
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    height: fit-content;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card3{
+    background-color: rgb(72, 1, 72);
+   margin-top: 40px;
     border-radius: 10px;
     padding: 20px;
     width: 300px;
