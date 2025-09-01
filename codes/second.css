@@ -4,10 +4,12 @@
 }
 body{
     width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    height: 100vh;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .background{
@@ -16,31 +18,22 @@ body{
           height: 400px;
     }
 
-
-.background>img {
-      position: absolute;
-      
-    }
-
-.img1 {
-       height: 100%;
-    }
 .container{
-    background-color: pink;
-    width: 1280px; ;
-    height: 640px;
-
+    width: 80%; 
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .words{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .hino{
     display: flex;
     flex-direction: column;
     font-size: smaller;
-    margin-top: 100px;
 }
 .hino>p{
     margin-top: 20px;
@@ -50,33 +43,30 @@ body{
     flex-direction: column;
     gap: 10px;
     font-size: small;
-    margin-top: 120px;
-    width: 500px;
 }
 .rimwe{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    background-color: hsl(210, 46%, 95%);
+    background-color: rgb(252, 248, 253);
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     width: 350px;  
 }
 .kabiri{
     display: flex;
     flex-direction: row;
-    background-color: hsl(210, 46%, 95%);
+    background-color: rgb(252, 248, 253);
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     margin-left: 50px;
     width: 350px;
 }
 .gatatu{
     display: flex;
     flex-direction: row;
-    background-color: hsl(210, 46%, 95%);
+    background-color: rgb(252, 248, 253);
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     margin-left: 100px;
     width: 350px;
 }
@@ -104,20 +94,41 @@ body{
     flex-direction: row;
     justify-content: space-between;
     margin-top: 70px;
-    height: auto;
-    width: 84%;
     color: whitesmoke;
     font-size: small;
-    margin-left: 80px;
 }
 
 .card1{
     background-color: rgb(72, 1, 72);
-    height: fit-content;
     border-radius: 10px;
     padding: 20px;
-    width: 300px;
+    width: 280px;
+    height: 180px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.a{
+display: flex;
+flex-direction: row;
+}
+.a>img{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+.a1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+}
+.a1>h4{
+    color: rgb(203, 36, 136);
+}
+.b{
+padding-top: 30px;
 }
 
 .card2{
@@ -125,16 +136,65 @@ body{
     margin-top: 20px;
     border-radius: 10px;
     padding: 20px;
-    width: 300px;
-    height: fit-content;
+    width: 280px;
+    height: 180px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.c{
+display: flex;
+flex-direction: row;
+}
+.c>img{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+.c1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+}
+.c1>h4{
+    color: rgb(203, 36, 136);
+}
+.d{
+    padding-top: 30px;
 }
 
 .card3{
     background-color: rgb(72, 1, 72);
-   margin-top: 40px;
+    margin-top: 40px;
     border-radius: 10px;
     padding: 20px;
-    width: 300px;
+    width: 280px;
+    height: 180px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.e{
+display: flex;
+flex-direction: row;
+}
+.e>img{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+.e1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+}
+.e1>h4{
+    color: rgb(203, 36, 136);
+}
+.f{
+    padding-top: 30px;
 }
